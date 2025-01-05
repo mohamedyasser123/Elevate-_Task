@@ -64,7 +64,7 @@ class ProductWidget extends StatelessWidget {
       height: 200,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: Colors.cyan, width: 0.5),
+        border: Border.all(color: Colors.cyan, width: 2),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -107,6 +107,7 @@ class ProductWidget extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(height: 20,),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: SizedBox(
@@ -144,7 +145,7 @@ class ProductWidget extends StatelessWidget {
                       fontSize: 16,
                       overflow: TextOverflow.ellipsis
                   ),),
-                const SizedBox(width: 15,),
+                const SizedBox(width: 10,),
                 const Text("2000EGP",
                   style: TextStyle(
                     decoration: TextDecoration.lineThrough,
@@ -171,7 +172,7 @@ class ProductWidget extends StatelessWidget {
                   Icons.star,
                   color: Colors.yellow,
                 ),
-                const SizedBox(width: 25,),
+                const SizedBox(width: 20,),
                 Container(
                   decoration: const BoxDecoration(
                     color: Colors.indigo,

@@ -1,6 +1,5 @@
 import 'package:ev/presentation/features/product/busnisslayer/product_cubit.dart';
 import 'package:ev/presentation/features/product/data/repo/product_impl.dart';
-import 'package:ev/presentation/features/product/data/repo/product_repo.dart';
 import 'package:ev/presentation/features/product/screen/product_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
